@@ -1,4 +1,4 @@
-@-moz-document domain("noc.social") {
+@-moz-document domain("noc.social"), domain("mastodon.social") {
     /* ==UserStyle==
     @name         GarrisonMastodon
     @description  A soft and colorful Mastodon theme
