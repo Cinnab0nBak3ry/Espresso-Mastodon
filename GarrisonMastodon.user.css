@@ -36,7 +36,7 @@ body {
     background-color: var(--PGBackgroundD);
 }
 
-.drawer__header {
+.drawer__header, .column-subheading {
     border-radius: 30px;
     background-color: var(--PGBackgroundD);
 }
@@ -101,6 +101,15 @@ body {
     color: var(--PGColorTextD);
     border-radius: 10px;
     background-color: var(--PGBackground2D);
+}
+
+.getting-started__wrapper {
+    border-right: var(--accentD) 2px solid;
+    margin-top: 7px;
+    background-color: var(--PGBackgroundD);
+}
+.column-link {
+    background-color: var(--PGBackgroundD); 
 }
 
 .drawer__inner__mastodon {
