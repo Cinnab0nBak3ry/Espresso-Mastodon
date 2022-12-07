@@ -176,3 +176,14 @@ body {
       display: none;
     }
     
+.account__header, .account__header__bio .account__header__fields {
+    border-right: var(--accentD) 2px solid;
+    border-radius: 1px;
+    background-color: var(--PGBackgroundD);
+}
+
+.column-back-button {
+    border-right: var(--accentD) 2px solid;
+    border-radius: 1px;
+    background-color: var(--PGBackgroundD); 
+}
