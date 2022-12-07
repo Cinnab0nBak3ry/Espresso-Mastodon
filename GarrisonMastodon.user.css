@@ -1,0 +1,119 @@
+@-moz-document domain("noc.social") {
+    /* ==UserStyle==
+    @name         GarrisonMastodon
+    @description  A soft and colorful Mastodon theme
+    @author       Vozer
+    @namespace    https://github.com/SlippingGitty/GarrisonMastodon
+    @version      1.0.0
+    ==/UserStyle== */
+    
+/* 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+> -------COLOR PALLETES 🎨------- <
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+> Replace the last "___.css" with another color option (e.x: "amoled.css", "thinkpad.css")
+> All dark color choice that work in Project Garrison will also work here
+> See choices @ https://github.com/SlippingGittys-Discord-Themes/ProjectGarrison/tree/main/themes/dark
+*/
+
+@import url('https://slippinggittys-discord-Themes.github.io/ProjectGarrison/themes/dark/tokyonight.css');
+
+body {
+    background: var(--PGBackground2D);
+}
+
+.reply-indicator__content a.unhandled-link, .status__content a.unhandled-link, .column-header__back-button, .fa-fw, .fa-sliders::before {
+    color: var(--accentD);
+}
+
+.column>.scrollable {
+    background: var(--PGBackground2D); 
+}
+
+.drawer__inner {
+    border-right: var(--accentD) 2px solid;
+    border-radius: 1px;
+    background-color: var(--PGBackgroundD);
+}
+
+.drawer__header {
+    border-radius: 30px;
+    background-color: var(--PGBackgroundD);
+}
+
+.status__wrapper, .compose-form .compose-form__modifiers {
+    border-right: var(--accentD) 2px solid;
+    margin-top: 7px;
+    background-color: var(--PGBackgroundD);
+}
+
+.status {
+    border-bottom: 0px solid #393f4f;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
+}
+
+.notification { 
+    border-radius: 1px;
+    background-color: var(--PGBackgroundD);
+}
+
+.column-header, .column-header__button, .column-header__back-button {
+    background-color: var(--PGBackgroundD); 
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.column-header, .drawer__header {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.198);
+}
+
+.search__input {
+    background: var(--PGTextBackgroundD);
+    border-radius: 30px;
+    box-shadow: inset 3px 3px 3px 1px rgba(0, 0, 0, 0.198);
+}
+
+.account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button{
+    border-radius: 30px;
+    background-color: var(--PGBackgroundD);
+}
+
+.account__section-headline, .notification__filter-bar {
+    background: #1f232b00;
+    border-bottom: 1px solid #c5cfe900;
+    margin-bottom: 5px;
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+ display: none !important;
+}
+
+.compose-form .compose-form__buttons-wrapper {
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: var(--PGBackground2D);
+}
+
+.compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input {
+    box-shadow: inset 3px 3px 3px 1px rgba(0, 0, 0, 0.198);
+    color: var(--PGColorTextD);
+    border-radius: 10px;
+    background-color: var(--PGBackground2D);
+}
+
+.drawer__inner__mastodon {
+    display: none;
+}
+
+.scrollable {
+    border-radius: 10px;
+}
+
+.notification__message, .account {
+    margin-top: 5px;
+    border-right: var(--accentD) 2px solid;
+    background-color: var(--PGBackgroundD);
+}
+}
