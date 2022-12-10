@@ -1,9 +1,9 @@
 @-moz-document domain("noc.social"), domain("mastodon.social") {
     /* ==UserStyle==
-    @name         GarrisonMastodon
+    @name         Espresso: Mastadon
     @description  A soft and colorful Mastodon theme
     @author       Vozer
-    @namespace    https://github.com/SlippingGitty/GarrisonMastodon
+    @namespace    https://github.com/SlippingGitty/Espresso-Mastadon
     @version      1.0.0
     ==/UserStyle== */
     
@@ -12,16 +12,16 @@
 > This is the core of the entire theme
 > It is essential that you do not touch this url, unless you know what you are doing.
 */
-@import url('https://slippinggitty.github.io/GarrisonMastodon/source.css');
+@import url('https://slippinggitty.github.io/Espresso-Mastadon/source.css');
 
 /* 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 > -------COLOR PALLETES 🎨------- <
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 > Replace the last "___.css" with another color option (e.x: "amoled.css", "thinkpad.css")
-> All dark color choice that work in Project Garrison will also work here
-> See choices @ https://github.com/SlippingGittys-Discord-Themes/ProjectGarrison/tree/main/themes/dark
+> All dark color choice that work in the Espresso Discord theme will also work here
+> See choices @ https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes/dark
 */
 
-@import url('https://slippinggittys-discord-Themes.github.io/ProjectGarrison/themes/dark/tokyonight.css');
+@import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/dark/tokyonight.css');
 }
