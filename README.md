@@ -1,6 +1,6 @@
 # Espresso: Mastodon Edition 
 ### [Click here to Install](https://github.com/SlippingGitty/GarrisonMastodon/raw/main/GarrisonMastodon.user.css)
-### The same general concept as Project Garrison, but with Mastodon
+### The same general concept as the Espresso Discord theme, but with Mastodon
 All dark color choices that work in [the Espresso Discord Theme](https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes/dark) will also work here
 
 ![image](https://user-images.githubusercontent.com/76500838/206083286-35ce69e3-3d01-4cac-9ada-d7ce0ac39efb.png)
