@@ -25,3 +25,15 @@
 
 @import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/dark/tokyonight.css');
 }
+
+/*
+-----------Accent Color 🖌️---------
+> This will override the accent color on the theme you've selected
+> Uncomment this selection if you are okay with that. 
+:root {
+  --accentD: rgb(39, 249, 253);
+  --accent-hoverD: rgba(39, 249, 253, 0.977);
+  --accent-selectedD: rgb(39, 249, 253, 0.612);
+  --accent-focusedD: rgb(39, 249, 253, 0.200);
+}
+*/
