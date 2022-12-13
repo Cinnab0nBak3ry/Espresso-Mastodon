@@ -1,5 +1,4 @@
-# Espresso: Mastodon Edition 
-### [Click here to Install](https://github.com/SlippingGitty/GarrisonMastodon/raw/main/GarrisonMastodon.user.css)
+# Espresso: Mastodon Edition [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/GarrisonMastodon/raw/main/GarrisonMastodon.user.css)
 ### The same general concept as the Espresso Discord theme, but with Mastodon
 All dark color choices that work in [the Espresso Discord Theme](https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes/dark) will also work here
 
