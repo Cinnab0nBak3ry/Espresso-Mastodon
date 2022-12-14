@@ -64,12 +64,6 @@ body {
     margin-bottom: 5px;
 }
 
-::-webkit-scrollbar-corner,
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-thumb {
- display: none !important;
-}
-
 .compose-form .compose-form__buttons-wrapper {
     border-radius: 30px;
     margin-top: 15px;
