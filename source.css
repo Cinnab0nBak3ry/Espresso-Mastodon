@@ -2,8 +2,12 @@ body {
     background: var(--PGBackground2D);
 }
 
-.reply-indicator__content a.unhandled-link, .status__content a.unhandled-link, .column-header__back-button, .fa-fw, .fa-sliders::before {
+.reply-indicator__content a.unhandled-link, .status__content a.unhandled-link, .column-header__back-button, .icon-button.bookmark-icon.active, .column-header__icon, .column-header__icon, .fa-home:before,.fa-cog:before, .fa-gear:before, .fa-sign-out:before, .fa-bars:before, .fa-navicon:before, .fa-reorder:before, .fa-chevron-left:before, .column-back-button {
     color: var(--accentD);
+}
+
+.fa-sliders:before, .fa-file-text:before {
+    color: var(--accent-selectedD);
 }
 
 .column>.scrollable {
@@ -16,7 +20,6 @@ body {
 
 .drawer__inner {
     border-right: var(--accentD) 3px solid;
-    border-left: var(--accentD) 3px solid;
     border-radius: 1px;
     background-color: var(--PGBackgroundD);
 }
@@ -49,7 +52,7 @@ body {
     background-color: var(--PGBackgroundD);
 }
 
-.column-header, .column-header__button, .column-header__back-button {
+.column-header, .column-header__button, .column-header__back-button, .column-back-button {
     background-color: var(--PGBackgroundD); 
     border-radius: 30px;
     margin-bottom: 10px;
@@ -129,14 +132,23 @@ body {
     background-color: var(--PGBackgroundD);
 }
 
-.status-card {
+.status-card, .account__header__bio .account__header__fields dl {
     border: var(--accentD) 2px solid;
     border-radius: 1px;
     background-color: var(--PGBackgroundD); 
 }
 
-.status-card__image {
+.status-card__image, .account__header__bar {
     background-color: var(--PGBackgroundD); 
+}
+
+.column-link:hover {
+    margin-left: 5px;
+    border-left: solid 1px var(--accentD);
+    transition: 0.3s;
+    border-radius: 1px;
+    text-align: center;
+    background-color: var(--PGBackgroundD) !important;
 }
 
 .button {
@@ -147,4 +159,31 @@ body {
     color: var(--accentD);
     transition: 0.9s;
     font-weight: 1000;
+}
+
+.reply-indicator {
+    background-color: var(--PGBackgroundD) !important;
+    border: solid 3px;
+    border-radius: 18px;
+    border-color: var(--accentD);
+    color: var(--accentD);
+    transition: 0.9s;
+    font-weight: 1000;
+}
+.reply-indicator__content, .display-name {
+    color: white;
+}
+
+.status-card.compact {
+    border-radius: 30px;
+    border-color: var(--accent-selectedD);
+    box-shadow: inset 5px 5px 5px 4px rgba(0, 0, 0, 0.198);
+}
+
+.icon-button.star-icon.active, .notification__favourite-icon-wrapper .star-icon, .no-reduce-motion .icon-button.star-icon.activate>.fa-star {
+    color: var(--accentD) !important;
+}
+
+.icon-button {
+    color: var(--accent-selectedD);
 }
