@@ -1,3 +1,4 @@
+
 body {
     background: var(--PGBackground2D);
 }
@@ -8,6 +9,8 @@ body {
 
 .column>.scrollable {
     background: var(--PGBackground2D); 
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .drawer__inner {
@@ -120,3 +123,5 @@ body {
 .status-card__image {
     background-color: var(--PGBackgroundD); 
 }
+
+
