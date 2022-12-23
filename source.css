@@ -1,4 +1,3 @@
-
 body {
     background: var(--PGBackground2D);
 }
@@ -9,12 +8,15 @@ body {
 
 .column>.scrollable {
     background: var(--PGBackground2D); 
-    overflow-x: hidden;
-    overflow-y: hidden;
+}
+
+.column>.scrollable::-webkit-scrollbar {
+      display: none;
 }
 
 .drawer__inner {
-    border-left: var(--accentD) 2px solid;
+    border-right: var(--accentD) 3px solid;
+    border-left: var(--accentD) 3px solid;
     border-radius: 1px;
     background-color: var(--PGBackgroundD);
 }
@@ -25,7 +27,7 @@ body {
 }
 
 .status__wrapper, .compose-form .compose-form__modifiers {
-    border-left: var(--accentD) 2px solid;
+    border-right: var(--accentD) 2px solid;
     margin-top: 7px;
     background-color: var(--PGBackgroundD);
 }
@@ -33,7 +35,13 @@ body {
 .status {
     border-bottom: 0px solid #393f4f;
     box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
-    
+}
+
+.status__wrapper:hover {
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: .3s;
 }
 
 .notification { 
@@ -45,6 +53,13 @@ body {
     background-color: var(--PGBackgroundD); 
     border-radius: 30px;
     margin-bottom: 10px;
+}
+
+.column-header:hover, .column-header__button:hover, .column-header__back-button:hover {
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: .3s;
 }
 
 .column-header, .drawer__header {
@@ -82,7 +97,7 @@ body {
 }
 
 .getting-started__wrapper {
-    border-left: var(--accentD) 2px solid;
+    border-right: var(--accentD) 2px solid;
     margin-top: 7px;
     background-color: var(--PGBackgroundD);
 }
@@ -100,7 +115,7 @@ body {
 
 .notification__message, .account {
     margin-top: 5px;
-    border-left: var(--accentD) 2px solid;
+    border-right: var(--accentD) 2px solid;
     background-color: var(--PGBackgroundD);
 }
 
@@ -109,7 +124,7 @@ body {
 }
 
 .detailed-status {
-    border-left: var(--accentD) 2px solid;
+    border-right: var(--accentD) 2px solid;
     border-radius: 1px;
     background-color: var(--PGBackgroundD);
 }
@@ -124,4 +139,12 @@ body {
     background-color: var(--PGBackgroundD); 
 }
 
-
+.button {
+    background-color: var(--PGBackgroundD2) !important;
+    border: solid 3px;
+    border-radius: 18px;
+    border-color: var(--accentD);
+    color: var(--accentD);
+    transition: 0.9s;
+    font-weight: 1000;
+}
