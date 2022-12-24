@@ -67,6 +67,7 @@ body {
 
 .column-header, .drawer__header {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.198);
+    border: solid var(--accentD) 2px;
 }
 
 .search__input {
@@ -78,6 +79,15 @@ body {
 .account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button{
     border-radius: 30px;
     background-color: var(--PGBackgroundD);
+    border: solid var(--accentD) 1px;
+}
+
+.compose-form .compose-form__buttons-wrapper {
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: var(--PGBackground2D);
+    border: solid var(--accentD) 1px;
+    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.198);
 }
 
 .account__section-headline, .notification__filter-bar {
