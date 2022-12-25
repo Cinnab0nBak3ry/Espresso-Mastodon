@@ -2,7 +2,7 @@
 ### The same general concept as the Espresso Discord theme, but with Mastodon
 All dark color choices that work in [the Espresso Discord Theme](https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes/dark) will also work here
 
-![image](https://user-images.githubusercontent.com/76500838/209449511-77072f13-a018-49f3-87bb-06d11ec10a0f.png)
+![Screenshot 2022-12-25 at 1 51 24 PM](https://user-images.githubusercontent.com/76500838/209480432-853f5d5e-8cd3-4a78-9e27-163d9ea65d6d.png)
 
 <details>
 <summary>Click to show more color schemes 🎨</summary>
