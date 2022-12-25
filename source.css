@@ -1,3 +1,4 @@
+    
 body {
     background: var(--PGBackground2D);
 }
@@ -37,11 +38,9 @@ body {
 
 .status {
     border-bottom: 0px solid #393f4f;
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
 }
 
 .status__wrapper:hover {
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
     margin-right: 5px;
     margin-left: 5px;
     transition: .3s;
@@ -59,21 +58,18 @@ body {
 }
 
 .column-header:hover, .column-header__button:hover, .column-header__back-button:hover {
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
     margin-right: 5px;
     margin-left: 5px;
     transition: .3s;
 }
 
 .column-header, .drawer__header {
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.198);
     border: solid var(--accentD) 2px;
 }
 
 .search__input {
     background: var(--PGTextBackgroundD);
     border-radius: 30px;
-    box-shadow: inset 3px 3px 3px 1px rgba(0, 0, 0, 0.198);
 }
 
 .account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button{
@@ -87,7 +83,6 @@ body {
     margin-top: 15px;
     background-color: var(--PGBackground2D);
     border: solid var(--accentD) 1px;
-    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.198);
 }
 
 .account__section-headline, .notification__filter-bar {
@@ -103,7 +98,6 @@ body {
 }
 
 .compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input {
-    box-shadow: inset 3px 3px 3px 1px rgba(0, 0, 0, 0.198);
     color: var(--PGColorTextD);
     border-radius: 10px;
     background-color: var(--PGBackground2D);
@@ -194,7 +188,6 @@ body {
 .status-card.compact {
     border-radius: 30px;
     border-color: var(--accent-selectedD);
-    box-shadow: inset 5px 5px 5px 4px rgba(0, 0, 0, 0.198);
 }
 
 .icon-button.star-icon.active, .notification__favourite-icon-wrapper .star-icon, .no-reduce-motion .icon-button.star-icon.activate>.fa-star {
