@@ -37,11 +37,9 @@ body {
 
 .status {
     border-bottom: 0px solid #393f4f;
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
 }
 
 .status__wrapper:hover {
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
     margin-right: 5px;
     margin-left: 5px;
     transition: .3s;
@@ -59,14 +57,12 @@ body {
 }
 
 .column-header:hover, .column-header__button:hover, .column-header__back-button:hover {
-    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.198);
     margin-right: 5px;
     margin-left: 5px;
     transition: .3s;
 }
 
 .column-header, .drawer__header {
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.198);
     border: solid var(--accent) 2px;
 }
 
@@ -74,7 +70,6 @@ body {
     background: var(--PGTextBackground);
     border-radius: 30px;
     border: solid var(--accent) 2px;
-    box-shadow: inset 3px 3px 3px 1px rgba(0, 0, 0, 0.198);
 }
 
 .account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button{
@@ -88,7 +83,6 @@ body {
     margin-top: 15px;
     background-color: var(--PGBackground2);
     border: solid var(--accent) 1px;
-    box-shadow: inset 5px 5px 5px 5px rgba(0, 0, 0, 0.198);
 }
 
 .account__section-headline, .notification__filter-bar {
@@ -104,9 +98,9 @@ body {
 }
 
 .compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input {
-    box-shadow: inset 3px 3px 3px 1px rgba(0, 0, 0, 0.198);
     color: var(--PGColorTextD);
     border-radius: 10px;
+    border: var(--accent) 2px solid;
     background-color: var(--PGBackground2);
 }
 
