@@ -70,12 +70,17 @@ body {
 .search__input {
     background: var(--PGTextBackgroundD);
     border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    border: solid var(--accent-selectedD) 2px;
 }
 
 .account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button{
     border-radius: 30px;
     background-color: var(--PGBackgroundD);
     border: solid var(--accentD) 1px;
+    margin-right: 5px;
 }
 
 .compose-form .compose-form__buttons-wrapper {
@@ -114,6 +119,14 @@ body {
 
 .drawer__inner__mastodon {
     display: none;
+}
+
+.drawer__inner.darker, .search-results__section h5, .search-results__header {
+        background: var(--PGBackgroundD);
+}
+    
+.drawer__inner::-webkit-scrollbar, .drawer__pager::-webkit-scrollbar {
+        display: none;
 }
 
 .scrollable {
@@ -184,6 +197,14 @@ body {
     background-color: var(--PGBackgroundD);
     border: solid var(--accentD) 1px;
 }
+
+.drawer__inner.darker, .search-results__section h5, .search-results__header {
+        background: var(--PGBackgroundD);
+    }
+    
+.drawer__inner::-webkit-scrollbar, .drawer__pager::-webkit-scrollbar {
+        display: none;
+    }
 
 .status-card.compact {
     border-radius: 30px;
