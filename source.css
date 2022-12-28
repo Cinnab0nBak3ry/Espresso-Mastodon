@@ -28,7 +28,7 @@ d888b Y8b Y8b "88 888 d,dP   888    "88 88"   "88 888  "88 88"  888 888
         \ /    /__v__\
          '    |       |
               |     .#|
-              |#.  .##|
+              |#.L .##|
               |#######|
               |#######|
 */
@@ -58,7 +58,10 @@ body {
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-chevron-left:before,
-.column-back-button {
+.column-back-button,
+.status__content a,
+span,
+.column-link__icon {
     color: var(--accentD);
 }
 
@@ -78,7 +81,7 @@ body {
 }
 
 .button {
-    background-color: var(--PGBackgroundD2) !important;
+    background-color: var(--PGBackground2D) !important;
     border: solid 3px;
     border-radius: 18px;
     border-color: var(--accentD);
@@ -232,6 +235,10 @@ body {
     margin-top: 5px;
     border-right: var(--accentD) 2px solid;
     background-color: var(--PGBackgroundD);
+}
+
+.notification__filter-bar button.active {
+    color: var(--accentD)
 }
 
 .notification__filter-bar button.active:after {
