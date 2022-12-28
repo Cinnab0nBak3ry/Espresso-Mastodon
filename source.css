@@ -1,22 +1,125 @@
-    
+/*
+888'Y88                                                                 
+888 ,'Y  dP"Y 888 88e  888,8,  ,e e,   dP"Y  dP"Y  e88 88e              
+888C8   C88b  888 888b 888 "  d88 88b C88b  C88b  d888 888b             
+888 ",d  Y88D 888 888P 888    888   ,  Y88D  Y88D Y888 888P             
+888,d88 d,dP  888 88"  888     "YeeP" d,dP  d,dP   "88 88"              
+              888                                                       
+              888                                                       
+    e   e                     d8                  888                   
+   d8b d8b     ,"Y88b  dP"Y  d88    e88 88e   e88 888  e88 88e  888 8e  
+  e Y8b Y8b   "8" 888 C88b  d88888 d888 888b d888 888 d888 888b 888 88b     
+ d8b Y8b Y8b  ,ee 888  Y88D  888   Y888 888P Y888 888 Y888 888P 888 888     
+d888b Y8b Y8b "88 888 d,dP   888    "88 88"   "88 888  "88 88"  888 888 
+            .------.____
+         .-'       \ ___)
+      .-'         \\\
+   .-'        ___  \\)
+.-'          /  (\  |)
+         __  \  ( | |
+        /  \  \__'| |
+       /    \____).-'
+     .'       /   |
+    /     .  /    |
+  .'     / \/     |
+ /      /   \     |
+       /    /    _|_
+       \   /    /\ /\
+        \ /    /__v__\
+         '    |       |
+              |     .#|
+              |#.  .##|
+              |#######|
+              |#######|
+*/
+
+/*---------- Background Color -----------
+> Behind the content
+*/
 body {
     background: var(--PGBackground2D);
 }
 
-.reply-indicator__content a.unhandled-link, .status__content a.unhandled-link, .column-header__back-button, .icon-button.bookmark-icon.active, .column-header__icon, .column-header__icon, .fa-home:before,.fa-cog:before, .fa-gear:before, .fa-sign-out:before, .fa-bars:before, .fa-navicon:before, .fa-reorder:before, .fa-chevron-left:before, .column-back-button {
+/* --------- Accent --------------
+> Icons, Links, Star/Bookmark/Reply/Share
+> Buttons
+*/
+.reply-indicator__content a.unhandled-link,
+.status__content a.unhandled-link,
+.column-header__back-button,
+.icon-button.bookmark-icon.active,
+.column-header__icon,
+.column-header__icon,
+.fa-home:before,
+.fa-cog:before,
+.fa-gear:before,
+.fa-sign-out:before,
+.fa-bars:before,
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-chevron-left:before,
+.column-back-button {
     color: var(--accentD);
 }
 
-.fa-sliders:before, .fa-file-text:before {
+.fa-sliders:before,
+.fa-file-text:before {
     color: var(--accent-selectedD);
 }
 
+.icon-button.star-icon.active,
+.notification__favourite-icon-wrapper .star-icon,
+.no-reduce-motion .icon-button.star-icon.activate>.fa-star {
+    color: var(--accentD) !important;
+}
+
+.icon-button {
+    color: var(--accent-selectedD);
+}
+
+.button {
+    background-color: var(--PGBackgroundD2) !important;
+    border: solid 3px;
+    border-radius: 18px;
+    border-color: var(--accentD);
+    color: var(--accentD);
+    transition: 0.9s;
+    font-weight: 1000;
+}
+
+/* --------- Main Content --------------
+> Columns
+> Drawers
+> Status
+> Notifications
+> Column Headers
+> Account Headers
+> Getting Started
+*/
+
 .column>.scrollable {
-    background: var(--PGBackground2D); 
+    background: var(--PGBackground2D);
 }
 
 .column>.scrollable::-webkit-scrollbar {
-      display: none;
+    display: none;
+}
+
+.column-link {
+    background-color: var(--PGBackgroundD);
+}
+
+.ui__header {
+    display: none;
+}
+
+.column-link:hover {
+    margin-left: 5px;
+    border-left: solid 1px var(--accentD);
+    transition: 0.3s;
+    border-radius: 1px;
+    text-align: center;
+    background-color: var(--PGBackgroundD) !important;
 }
 
 .drawer__inner {
@@ -25,12 +128,63 @@ body {
     background-color: var(--PGBackgroundD);
 }
 
-.drawer__header, .column-subheading {
+.drawer__header,
+.column-subheading {
     border-radius: 30px;
     background-color: var(--PGBackgroundD);
 }
 
-.status__wrapper, .compose-form .compose-form__modifiers {
+.drawer__inner.darker,
+.search-results__section h5,
+.search-results__header {
+    background: var(--PGBackgroundD);
+}
+
+.drawer__inner::-webkit-scrollbar,
+.drawer__pager::-webkit-scrollbar {
+    display: none;
+}
+
+.drawer__inner.darker,
+.search-results__section h5,
+.search-results__header {
+    background: var(--PGBackgroundD);
+}
+
+.drawer__inner::-webkit-scrollbar,
+.drawer__pager::-webkit-scrollbar {
+    display: none;
+}
+
+.drawer__inner__mastodon {
+    display: none;
+}
+
+.status-card.compact {
+    border-radius: 30px;
+    border-color: var(--accent-selectedD);
+}
+
+.detailed-status {
+    border-right: var(--accentD) 2px solid;
+    border-radius: 1px;
+    background-color: var(--PGBackgroundD);
+}
+
+.status-card,
+.account__header__bio .account__header__fields dl {
+    border: var(--accentD) 2px solid;
+    border-radius: 1px;
+    background-color: var(--PGBackgroundD);
+}
+
+.status-card__image,
+.account__header__bar {
+    background-color: var(--PGBackgroundD);
+}
+
+.status__wrapper,
+.compose-form .compose-form__modifiers {
     border-right: var(--accentD) 2px solid;
     margin-top: 7px;
     background-color: var(--PGBackgroundD);
@@ -46,136 +200,11 @@ body {
     transition: .3s;
 }
 
-.notification { 
-    border-radius: 1px;
-    background-color: var(--PGBackgroundD);
-}
-
-.column-header, .column-header__button, .column-header__back-button, .column-back-button {
-    background-color: var(--PGBackgroundD); 
-    border-radius: 30px;
-    margin-bottom: 10px;
-}
-
-.column-header:hover, .column-header__button:hover, .column-header__back-button:hover {
-    margin-right: 5px;
-    margin-left: 5px;
-    transition: .3s;
-}
-
-.column-header, .drawer__header {
-    border: solid var(--accentD) 2px;
-}
-
-.search__input {
-    background: var(--PGTextBackgroundD);
-    border-radius: 30px;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 7px;
+.detailed-status__action-bar {
     margin-top: 7px;
-    border: solid var(--accent-selectedD) 2px;
-}
-
-.account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button{
     border-radius: 30px;
     background-color: var(--PGBackgroundD);
     border: solid var(--accentD) 1px;
-    margin-right: 5px;
-}
-
-.compose-form .compose-form__buttons-wrapper {
-    border-radius: 30px;
-    margin-top: 15px;
-    background-color: var(--PGBackground2D);
-    border: solid var(--accentD) 1px;
-}
-
-.account__section-headline, .notification__filter-bar {
-    background: #1f232b00;
-    border-bottom: 1px solid #c5cfe900;
-    margin-bottom: 5px;
-}
-
-.compose-form .compose-form__buttons-wrapper {
-    border-radius: 30px;
-    margin-top: 15px;
-    background-color: var(--PGBackground2D);
-}
-
-.compose-form .autosuggest-textarea__textarea, .compose-form .spoiler-input__input {
-    color: var(--PGColorTextD);
-    border-radius: 10px;
-    background-color: var(--PGBackground2D);
-}
-
-.getting-started__wrapper {
-    border-right: var(--accentD) 2px solid;
-    margin-top: 7px;
-    background-color: var(--PGBackgroundD);
-}
-.column-link {
-    background-color: var(--PGBackgroundD); 
-}
-
-.drawer__inner__mastodon {
-    display: none;
-}
-
-.drawer__inner.darker, .search-results__section h5, .search-results__header {
-        background: var(--PGBackgroundD);
-}
-    
-.drawer__inner::-webkit-scrollbar, .drawer__pager::-webkit-scrollbar {
-        display: none;
-}
-
-.scrollable {
-    border-radius: 10px;
-}
-
-.notification__message, .account {
-    margin-top: 5px;
-    border-right: var(--accentD) 2px solid;
-    background-color: var(--PGBackgroundD);
-}
-
-.ui__header {
-    display: none;
-}
-
-.detailed-status {
-    border-right: var(--accentD) 2px solid;
-    border-radius: 1px;
-    background-color: var(--PGBackgroundD);
-}
-
-.status-card, .account__header__bio .account__header__fields dl {
-    border: var(--accentD) 2px solid;
-    border-radius: 1px;
-    background-color: var(--PGBackgroundD); 
-}
-
-.status-card__image, .account__header__bar {
-    background-color: var(--PGBackgroundD); 
-}
-
-.column-link:hover {
-    margin-left: 5px;
-    border-left: solid 1px var(--accentD);
-    transition: 0.3s;
-    border-radius: 1px;
-    text-align: center;
-    background-color: var(--PGBackgroundD) !important;
-}
-
-.button {
-    background-color: var(--PGBackgroundD2) !important;
-    border: solid 3px;
-    border-radius: 18px;
-    border-color: var(--accentD);
-    color: var(--accentD);
-    transition: 0.9s;
-    font-weight: 1000;
 }
 
 .reply-indicator {
@@ -187,34 +216,100 @@ body {
     transition: 0.9s;
     font-weight: 1000;
 }
-.reply-indicator__content, .display-name {
+
+.reply-indicator__content,
+.display-name {
     color: white;
 }
 
-.detailed-status__action-bar {
-    margin-top: 7px;
+.notification {
+    border-radius: 1px;
+    background-color: var(--PGBackgroundD);
+}
+
+.notification__message,
+.account {
+    margin-top: 5px;
+    border-right: var(--accentD) 2px solid;
+    background-color: var(--PGBackgroundD);
+}
+
+.column-header,
+.column-header__button,
+.column-header__back-button,
+.column-back-button {
+    background-color: var(--PGBackgroundD);
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.column-header:hover,
+.column-header__button:hover,
+.column-header__back-button:hover {
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: .3s;
+}
+
+.column-header,
+.drawer__header {
+    border: solid var(--accentD) 2px;
+}
+
+.account__section-headline a,
+.account__section-headline button,
+.notification__filter-bar a,
+.notification__filter-bar button {
     border-radius: 30px;
     background-color: var(--PGBackgroundD);
     border: solid var(--accentD) 1px;
+    margin-right: 5px;
 }
 
-.drawer__inner.darker, .search-results__section h5, .search-results__header {
-        background: var(--PGBackgroundD);
-    }
-    
-.drawer__inner::-webkit-scrollbar, .drawer__pager::-webkit-scrollbar {
-        display: none;
-    }
+.account__section-headline,
+.notification__filter-bar {
+    background: #1f232b00;
+    border-bottom: 1px solid #c5cfe900;
+    margin-bottom: 5px;
+}
 
-.status-card.compact {
+.getting-started__wrapper {
+    border-right: var(--accentD) 2px solid;
+    margin-top: 7px;
+    background-color: var(--PGBackgroundD);
+}
+
+/* --------- Text Feilds --------------
+> Search
+> Compose
+
+*/
+
+.search__input {
+    background: var(--PGTextBackgroundD);
     border-radius: 30px;
-    border-color: var(--accent-selectedD);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    border: solid var(--accent-selectedD) 2px;
 }
 
-.icon-button.star-icon.active, .notification__favourite-icon-wrapper .star-icon, .no-reduce-motion .icon-button.star-icon.activate>.fa-star {
-    color: var(--accentD) !important;
+.compose-form .compose-form__buttons-wrapper {
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: var(--PGBackground2D);
+    border: solid var(--accentD) 1px;
 }
 
-.icon-button {
-    color: var(--accent-selectedD);
+.compose-form .compose-form__buttons-wrapper {
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: var(--PGBackground2D);
+}
+
+.compose-form .autosuggest-textarea__textarea,
+.compose-form .spoiler-input__input {
+    color: var(--PGColorTextD);
+    border-radius: 10px;
+    background-color: var(--PGBackground2D);
 }
