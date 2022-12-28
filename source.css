@@ -234,6 +234,17 @@ body {
     background-color: var(--PGBackgroundD);
 }
 
+.notification__filter-bar button.active:after {
+    bottom: 0px;
+    border-color: var(--PGBackgroundD);
+}
+
+.notification__filter-bar button:hover {
+    border-radius: 20px;
+    border: solid 2px var(--accent-selectedD);
+    transition: .3s;
+}
+
 .column-header,
 .column-header__button,
 .column-header__back-button,
@@ -271,6 +282,9 @@ body {
     background: #1f232b00;
     border-bottom: 1px solid #c5cfe900;
     margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
 }
 
 .getting-started__wrapper {
@@ -282,7 +296,6 @@ body {
 /* --------- Text Feilds --------------
 > Search
 > Compose
-
 */
 
 .search__input {
