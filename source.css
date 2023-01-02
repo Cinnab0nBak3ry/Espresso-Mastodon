@@ -333,3 +333,68 @@ span,
     border-radius: 10px;
     background-color: var(--PGBackground2D);
 }
+
+/* ---------------- Icons --------------
+> Settings Icons
+> Tile Bars
+> EVERY SINGLE ICON USED IS BROUGHT TO YOU BY GOOGLE'S MATERIAL SYMBOLS ICONS - PLEASE SEE THE LICENSE HERE - https://developers.google.com/fonts/faq
+*/
+.fa-cog:before, .fa-gear:before {
+    background-color: currentColor;
+    content: "";
+    padding: 0.1em 0.6em 0.1em;
+    margin: 0 0.125rem;
+    -webkit-mask-image: url("https://files.catbox.moe/rpuf7o.png");
+    mask-image: url("https://files.catbox.moe/rpuf7o.png");
+  }
+      
+.fa-bars:before, .fa-navicon:before, .fa-reorder:before {
+    background-color: currentColor;
+    content: "";
+    padding: 0.1em 0.7em 0.4em;
+    margin: 0 0.125rem;
+    -webkit-mask-image: url("https://files.catbox.moe/5czug8.svg");
+    mask-image: url("https://files.catbox.moe/5czug8.svg");
+  }
+      
+.fa-sign-out:before {
+    background-color: currentColor;
+    content: "";
+    padding: 0.1em 0.6em 0.1em;
+    margin: 0 0.125rem;
+    -webkit-mask-image: url("https://files.catbox.moe/65sylt.svg");
+    mask-image: url("https://files.catbox.moe/65sylt.svg");
+    }
+    
+.fa-home:before {
+    background-color: currentColor;
+    content: "";
+    padding: 0.1em 0.6em 0.1em;
+    margin: 0 0.125rem;
+    -webkit-mask-image: url("https://files.catbox.moe/s7o1pc.svg");
+    mask-image: url("https://files.catbox.moe/s7o1pc.svg");
+}
+.fa-bell:before {
+    background-color: currentColor;
+    content: "";
+    padding: 0.1em 0.6em 0.1em;
+    margin: 0 0.125rem;
+    -webkit-mask-image: url("https://files.catbox.moe/fhidxv.svg");
+    mask-image: url("https://files.catbox.moe/fhidxv.svg");
+}
+.fa-globe:before {
+    background-color: currentColor;
+    content: "";
+    padding: 0.1em 0.6em 0.1em;
+    margin: 0 0.125rem;
+    -webkit-mask-image: url("https://files.catbox.moe/vr9kr4.svg");
+    mask-image: url("https://files.catbox.moe/vr9kr4.svg");
+}
+.fa-group:before, .fa-users:before {
+    background-color: currentColor;
+    content: "";
+    padding: 0.1em 0.6em 0.1em;
+    margin: 0 0.125rem;
+    -webkit-mask-image: url("https://files.catbox.moe/pf39rr.svg");
+    mask-image: url("https://files.catbox.moe/pf39rr.svg");
+}
