@@ -455,9 +455,14 @@ span,
     background-color: currentColor;
     content: "";
     padding: 0.1em 0.6em 0.4em;
-    margin: 0 0.125rem;
-    -webkit-mask-image: url("https://files.catbox.moe/ktkqd5.svg");
-    mask-image: url("https://files.catbox.moe/ktkqd5.svg");
+    margin: 0em 0em;
+    -webkit-mask-image: url(https://files.catbox.moe/ktkqd5.svg);
+    mask-image: url(https://files.catbox.moe/ktkqd5.svg);
+}
+    
+.no-reduce-motion .icon-button.star-icon.activate>.fa-star, 
+.no-reduce-motion .icon-button.star-icon>.fa-star{
+    animation: spring-rotate-in 0.0s linear !important;
 }
 
 .fa.fa-star.column-link__icon.fa-fw .fa-star:before {
