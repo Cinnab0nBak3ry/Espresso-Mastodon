@@ -32,10 +32,10 @@ Espresso Mastodon is a userstyle which is heavily based and reliant on the [Disc
 
 </details>
 
-## Light Mode/Dark Mode & Themes
-If you choose to edit the userstyle, you will find a comment dedicated to the theme source and color palletes. From here, you can choose whether you'd desire to use the Light themes, or Dark themes. Each mode has it's own sets of color schemes. Check them out [here](https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes)!
+# Themes
+If you choose to edit the userstyle, you will find a comment dedicated to the theme source and color palletes. From here, you can choose any of the dark color schemes you desire. Check them out [here](https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes/dark)!
 
-![Screenshot 2022-12-30 at 9 38 14 AM](https://user-images.githubusercontent.com/76500838/210087492-373c3c84-4dba-40d4-ab3d-29271c178d72.png)
+![image](https://user-images.githubusercontent.com/76500838/210445666-c4907dbc-d4b7-43d0-a36e-ee8d34522aa7.png)
 
 ## Changing the accent color
 If you choose to edit the userstyle, you will find a comment dedicated to the accent varriables. Uncomment the whole thing, and change the color values to your desired ones.
