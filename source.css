@@ -197,12 +197,6 @@ span,
     border-bottom: 0px solid #393f4f;
 }
 
-.status__wrapper:hover {
-    margin-right: 5px;
-    margin-left: 5px;
-    transition: .3s;
-}
-
 .detailed-status__action-bar {
     margin-top: 7px;
     border-radius: 30px;
