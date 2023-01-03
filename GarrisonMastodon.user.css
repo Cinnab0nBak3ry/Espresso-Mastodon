@@ -10,16 +10,9 @@
 /*
 -----------Source 📡---------
 > This is the core of the entire theme
-> Uncomment ONE, either Dark or Light
 */
 
-/* Dark */
 @import url('https://slippinggitty.github.io/Espresso-Mastodon/source.css');
-
-    
-/* Light 
-@import url('https://slippinggitty.github.io/Espresso-Mastodon/sourcelight.css');
-*/
 
 /* 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -27,12 +20,10 @@
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 > Replace the last "___.css" with another color option (e.x: "amoled.css", "thinkpad.css")
 > All choices that work in the Espresso Discord theme will also work here
-> See choices @ https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes/dark or
-> https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes/light
+> See choices @ https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme/tree/main/themes/dark
 */
 
 @import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/dark/evening.css');
-@import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/light/newspaper.css');
 
 
 /*
