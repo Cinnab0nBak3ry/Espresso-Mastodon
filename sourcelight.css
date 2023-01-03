@@ -511,10 +511,10 @@ span,
 .fa-reply-all:before {
     background-color: currentColor;
     content: "";
-    padding: 0.1em 0.6em 0.1em;
+    padding: 0.1em 0.7em 0.1em;
     margin: 0 0.125rem;
-    -webkit-mask-image: url("https://files.catbox.moe/bsov9u.svg");
-    mask-image: url("https://files.catbox.moe/bsov9u.svg");
+    -webkit-mask-image: url("https://files.catbox.moe/j7dxa2.svg");
+    mask-image: url("https://files.catbox.moe/j7dxa2.svg");
 }
 
 .status__prepend .fa-reply:before {
