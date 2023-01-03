@@ -241,6 +241,13 @@ span,
     color: var(--accentD)
 }
 
+.notification__filter-bar {
+    margin-bottom: 1px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 1px;
+}
+
 .notification__filter-bar button.active:after {
     bottom: 0px;
     border-color: var(--PGBackgroundD);
@@ -250,6 +257,15 @@ span,
     border-radius: 20px;
     border: solid 2px var(--accent-selectedD);
     transition: .3s;
+}
+
+.account__section-headline a,
+.account__section-headline button,
+.notification__filter-bar a,
+.notification__filter-bar button {
+    border-radius: 30px;
+    padding: 11px 0px;
+    margin-right: 5px;
 }
 
 .column-header,
