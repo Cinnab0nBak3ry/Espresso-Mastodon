@@ -293,6 +293,8 @@ span,
     border-radius: 30px;
     padding: 11px 0px;
     margin-right: 5px;
+    background-color: var(--PGBackgroundD);
+    border: solid var(--accentD) 1px;
 }
 
 .account__section-headline,
