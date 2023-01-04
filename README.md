@@ -9,26 +9,19 @@ Espresso Mastodon is a userstyle which is heavily based and reliant on the [Disc
 <details>
 <summary>Click to show more color schemes 🎨</summary>
 
-## Evening
-![Screenshot 2022-12-30 at 9 29 11 AM](https://user-images.githubusercontent.com/76500838/210086983-e6a22cac-8c7f-4b73-a800-669650b24ef8.png)
-
-## Material Dark
-![Screenshot 2022-12-30 at 9 29 25 AM](https://user-images.githubusercontent.com/76500838/210087027-4da9ea22-d2d1-4b91-b73f-2b160e7aa2f9.png)
-
 ## Tokyo Night
-![Screenshot 2022-12-30 at 9 29 34 AM](https://user-images.githubusercontent.com/76500838/210087039-a4e06db4-d937-423d-8705-272084a4374d.png)
-
-## ThinkPad
-![Screenshot 2022-12-30 at 9 29 42 AM](https://user-images.githubusercontent.com/76500838/210087055-23500c6f-38a4-4748-aa2c-8240297f7af0.png)
-
-## Nord
-![Screenshot 2022-12-30 at 9 30 03 AM](https://user-images.githubusercontent.com/76500838/210087068-4100446e-a02a-4d5a-bd49-1aa772590615.png)
-
+![Screenshot 2023-01-04 at 10 18 27 AM](https://user-images.githubusercontent.com/76500838/210600799-70b12b69-7d7e-482c-a66d-cd57a6be5738.png)
 ## AMOLED
-![Screenshot 2022-12-30 at 9 30 19 AM](https://user-images.githubusercontent.com/76500838/210087085-9f31cdac-c99c-4985-b3fa-c0aaf0c441a2.png)
-
+![Screenshot 2023-01-04 at 10 18 36 AM](https://user-images.githubusercontent.com/76500838/210600801-2dc9d0e9-6be8-4e32-ab29-42b41dbf6561.png)
+## ThinkPad
+![Screenshot 2023-01-04 at 10 18 43 AM](https://user-images.githubusercontent.com/76500838/210600803-cc043b87-748f-4618-bcc3-0c2483777516.png)
+## Nord
+![Screenshot 2023-01-04 at 10 18 49 AM](https://user-images.githubusercontent.com/76500838/210600804-23c53c88-bc35-439f-9a1c-87364fc636a6.png)
+## Material Dark
+![Screenshot 2023-01-04 at 10 19 07 AM](https://user-images.githubusercontent.com/76500838/210600806-30d251b3-e466-43df-8a1e-5a9a04733763.png)
 ## WackyPomo - [BlueRedBlueYellow](https://github.com/BlueRedBlueYellow)
-![Screenshot 2022-12-30 at 9 30 27 AM](https://user-images.githubusercontent.com/76500838/210087109-bef31c28-2450-475b-b128-17c18b9b6926.png)
+![Screenshot 2023-01-04 at 10 19 17 AM](https://user-images.githubusercontent.com/76500838/210600809-cab00c16-9a8a-409b-a053-1c1cdcd6cb90.png)
+
 
 </details>
 
