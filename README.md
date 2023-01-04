@@ -1,7 +1,7 @@
 # Espresso: Mastodon [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/GarrisonMastodon/raw/main/GarrisonMastodon.user.css)
 ### A colorful userstyle which aims to make the Advanced Interface for Mastodon pretty!
 
-![Screenshot 2023-01-03 at 11 41 18 AM](https://user-images.githubusercontent.com/76500838/210411652-e5e0dbd0-6bdd-4cc6-af56-e6a978c6c25c.png)
+![Screenshot 2023-01-04 at 10 16 39 AM](https://user-images.githubusercontent.com/76500838/210600274-e0d519bf-3e5a-4964-a16c-73319abbbdea.png)
 
 ## Different colors schemes 
 Espresso Mastodon is a userstyle which is heavily based and reliant on the [Discord Espresso](https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme) theme color varriables, which means that all color schemes for the Discord theme will also work with this userstyle!
