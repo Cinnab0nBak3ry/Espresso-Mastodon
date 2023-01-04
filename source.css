@@ -282,6 +282,8 @@ span,
 .column-header,
 .drawer__header {
     border: solid var(--accentD) 2px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .account__section-headline a,
@@ -289,8 +291,7 @@ span,
 .notification__filter-bar a,
 .notification__filter-bar button {
     border-radius: 30px;
-    background-color: var(--PGBackgroundD);
-    border: solid var(--accentD) 1px;
+    padding: 11px 0px;
     margin-right: 5px;
 }
 
@@ -459,9 +460,9 @@ span,
     -webkit-mask-image: url(https://files.catbox.moe/ktkqd5.svg);
     mask-image: url(https://files.catbox.moe/ktkqd5.svg);
 }
-    
-.no-reduce-motion .icon-button.star-icon.activate>.fa-star, 
-.no-reduce-motion .icon-button.star-icon>.fa-star{
+
+.no-reduce-motion .icon-button.star-icon.activate>.fa-star,
+.no-reduce-motion .icon-button.star-icon>.fa-star {
     animation: spring-rotate-in 0.0s linear !important;
 }
 
