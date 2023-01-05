@@ -520,6 +520,15 @@ span,
     mask-image: url("https://files.catbox.moe/i5rdg9.svg");
 }
 
+.icon-button.bookmark-icon.active {
+    background-color: currentColor;
+    content: "";
+    padding: 0.1em 0.6em 0.4em;
+    margin: 0em 0em;
+    -webkit-mask-image: url(https://files.catbox.moe/n7yxwh.svg);
+    mask-image: url(https://files.catbox.moe/n7yxwh.svg);
+}
+
 .fa-mail-reply:before,
 .fa-reply:before,
 .fa-mail-reply-all:before,
