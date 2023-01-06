@@ -15,6 +15,8 @@ Espresso Mastodon is a userstyle which is heavily based and reliant on the [Disc
 ![Screenshot 2023-01-04 at 10 18 36 AM](https://user-images.githubusercontent.com/76500838/210600801-2dc9d0e9-6be8-4e32-ab29-42b41dbf6561.png)
 ## ThinkPad
 ![Screenshot 2023-01-04 at 10 18 43 AM](https://user-images.githubusercontent.com/76500838/210600803-cc043b87-748f-4618-bcc3-0c2483777516.png)
+## Twitter Blue
+![Screenshot 2023-01-05 at 9 18 32 PM](https://user-images.githubusercontent.com/76500838/210923177-f320bb70-bbcc-44b0-9861-d41a1abb36bd.png)
 ## Nord
 ![Screenshot 2023-01-04 at 10 18 49 AM](https://user-images.githubusercontent.com/76500838/210600804-23c53c88-bc35-439f-9a1c-87364fc636a6.png)
 ## Material Dark
