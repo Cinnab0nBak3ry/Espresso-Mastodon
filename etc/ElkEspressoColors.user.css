@@ -1,0 +1,34 @@
+@-moz-document domain("elk.zone") {
+@import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/dark/darkpastel.css');
+
+.dark {
+    --c-primary: var(--accentD) !important;
+    --c-primary-active: var(--accentD) !important;
+    --c-primary-light: var(--c-dark-primary-light);
+    --c-primary-fade: var(--c-dark-primary-fade);
+    --c-border: var(--accent-focusedD);
+    --c-border-dark: var(--accent-focusedD);
+    --rgb-bg-base: 17,17,17;
+    --c-bg-active: var(--PGBackground2D);
+    --c-bg-card: #ffffff06;
+    --c-bg-code: #ffffff06;
+    --c-bg-dm: var(--PGBackgroundD);
+    --c-bg-base: var(--PGBackground2D);
+    --c-text-base: var(--PGColorTextD);
+    --c-text-secondary: var(--accent-selectedD);
+    --c-text-secondary-light: var(--accent-selectedD);
+    --c-bg-btn-disabled: var(--PGBackground2D);
+    --c-text-btn-disabled: var(--accent-selectedD);
+}
+
+.text-primary .router-link-exact-active {
+    color: red;
+}
+
+html {
+    background-color: var(--PGBackgroundD);
+    color: var(--PGColorTextD);
+}
+
+
+}
