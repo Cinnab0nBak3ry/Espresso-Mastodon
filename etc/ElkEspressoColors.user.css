@@ -1,4 +1,12 @@
-@-moz-document domain("elk.zone") {
+@-moz-document domain("elk.zone") { 
+/* ==UserStyle==
+    @name         Espresso: Elk
+    @description  A colorful Mastodon theme
+    @author       Vozer
+    @namespace    https://github.com/SlippingGitty/Espresso-Mastadon
+    @version      1.0.0
+    ==/UserStyle== */
+/*
 @import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/dark/darkpastel.css');
 
 .dark {
