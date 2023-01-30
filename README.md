@@ -1,7 +1,7 @@
-# Espresso: Mastodon [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/Espresso-Mastodon/raw/main/EspressoMastodon.user.css)
+# Espresso: Mastodon 
 ### A colorful userstyle which aims to make the various interfaces for Mastodon pretty!
 
-## Mastodon: Advanced View
+## Mastodon: Advanced View [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/Espresso-Mastodon/raw/main/EspressoMastodon.user.css)
 ![Screenshot 2023-01-04 at 10 16 39 AM](https://user-images.githubusercontent.com/76500838/210600274-e0d519bf-3e5a-4964-a16c-73319abbbdea.png)
 ## Elk.zone
 ![Screenshot 2023-01-29 at 7 42 32 PM](https://user-images.githubusercontent.com/76500838/215370472-f66cdcc7-f7f8-42ef-a4cc-9f1713a96033.png)
