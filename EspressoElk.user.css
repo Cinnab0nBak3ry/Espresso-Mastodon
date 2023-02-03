@@ -246,6 +246,13 @@ div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>a {
     border: solid var(--PGBackground2D)1px;
 }
 
+.color-primary, .focus-visible\:text-primary:focus-visible, .hover\:text-primary:hover, .text-primary, [color-primary=""], [focus-visible\:text-primary=""]:focus-visible{
+    background-color: #00000038;
+    border-radius: 15px;
+    padding-top: 10px;
+    transition: .2s;
+}
+
 /* html {
 background: radial-gradient(circle, transparent 20%, var(--PGBackgroundD) 20%, var(--PGBackgroundD) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, var(--PGBackgroundD) 20%, var(--PGBackgroundD) 80%, transparent 80%, transparent) 10px 10px, linear-gradient(var(--accentD) 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, var(--accentD) 0.8px, var(--PGBackgroundD) 0.8px) -0.4px 0;
 background-size: 50px 50px, 50px 20px, 60px 60px, 20px 20px;
