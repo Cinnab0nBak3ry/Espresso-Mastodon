@@ -409,4 +409,10 @@ background-size: 50px 50px, 50px 20px, 60px 60px, 20px 20px;
 .h-1px, .h-px, .h1px, [h-1px=""], [h-px=""], [h1px=""], [h~="1px"] {
     display: none;
 }
+.i-ri\:list-check, [i-ri\:list-check=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/4s97wj.svg");
+    mask-image: url("https://files.catbox.moe/4s97wj.svg");
+}
 }
