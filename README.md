@@ -3,7 +3,7 @@
 
 ## Mastodon: Advanced View [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/Espresso-Mastodon/raw/main/EspressoMastodon.user.css)
 ![Screenshot 2023-01-04 at 10 16 39 AM](https://user-images.githubusercontent.com/76500838/210600274-e0d519bf-3e5a-4964-a16c-73319abbbdea.png)
-## Elk.zone ![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)
+## Elk.zone [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/Espresso-Mastodon/raw/main/EspressoElk.user.css)
 <img width="797" alt="Screenshot 2023-02-05 at 6 03 50 PM" src="https://user-images.githubusercontent.com/76500838/216854114-2f56a17d-b5ee-43f1-b36e-6c928a4bd467.png">
 
 
