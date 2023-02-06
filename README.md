@@ -3,8 +3,9 @@
 
 ## Mastodon: Advanced View [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/Espresso-Mastodon/raw/main/EspressoMastodon.user.css)
 ![Screenshot 2023-01-04 at 10 16 39 AM](https://user-images.githubusercontent.com/76500838/210600274-e0d519bf-3e5a-4964-a16c-73319abbbdea.png)
-## Elk.zone [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/Espresso-Mastodon/raw/main/EspressoElk.user.css)
-![Screenshot 2023-01-29 at 7 42 32 PM](https://user-images.githubusercontent.com/76500838/215370472-f66cdcc7-f7f8-42ef-a4cc-9f1713a96033.png)
+## Elk.zone ![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)
+<img width="797" alt="Screenshot 2023-02-05 at 6 03 50 PM" src="https://user-images.githubusercontent.com/76500838/216854114-2f56a17d-b5ee-43f1-b36e-6c928a4bd467.png">
+
 
 ## Different colors schemes
 Espresso Mastodon is a userstyle which is heavily based and reliant on the [Discord Espresso](https://github.com/SlippingGittys-Discord-Themes/Espresso-Discord-Theme) theme color varriables, which means that all color schemes for the Discord theme will also work with this userstyle!
