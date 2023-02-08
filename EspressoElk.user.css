@@ -278,7 +278,6 @@ background-size: 50px 50px, 50px 20px, 60px 60px, 20px 20px;
     box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.198);
     transition: 0.3s;
     margin-top: 15px;
-
 }
 
 #__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div:nth-child(1) {
@@ -291,12 +290,16 @@ background-size: 50px 50px, 50px 20px, 60px 60px, 20px 20px;
 }
 
 #__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div.sm\:max-w-600px.md\:shrink-0>div>div:nth-child(1) {
-    border-bottom: var(--accentD) 2px solid;
-    border-radius: 1px;
-    transition: .3s;
-    background-color: var(--PGBackground2D);
-    margin-top: 10px;
+    background: var(--PGBackground2D) !important;
+    border-radius: 20px;
+    box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.198);
+    transition: 0.3s;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    margin-bottom: 5px;
 }
+
 #__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div.sm\:max-w-600px.md\:shrink-0>div>div:nth-child(1):hover {
     box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.198);
     transition: .3s;
