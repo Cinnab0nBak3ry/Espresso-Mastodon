@@ -40,3 +40,9 @@ If you choose to edit the userstyle, you will find a comment dedicated to the th
 If you choose to edit the userstyle, you will find a comment dedicated to the accent varriables. Uncomment the whole thing, and change the color values to your desired ones.
 
 ![Screenshot 2022-12-30 at 9 18 43 AM](https://user-images.githubusercontent.com/76500838/210085837-b34d419d-605d-41eb-ba70-73eeed0ec0fa.png)
+
+# FireFox Users
+* Stylus users on Firefox have to be on version 102 or later and toggle "Patch CSP to allow style assets"  
+  Chromium browsers shall be fine by default on any recent version.
+  
+  ![stylus setting](https://raw.githubusercontent.com/SlippingGittys-Discord-Themes/surCord/main/assets/stylussettingneeded.png)
