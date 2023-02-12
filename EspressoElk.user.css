@@ -82,11 +82,8 @@ html {
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(1),
-#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(4), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(2), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(1)
-
-/* hides some dividers */
-    {
-    display: none;
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(4), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(2), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(1) > div, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(2), .py-4, .py4, [py-4=""], [py4=""] /* hides some dividers */ {
+        display: none;
 }
 
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav
@@ -130,16 +127,18 @@ html {
     } */
 
 /* Quilt Button */
-#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > a:nth-child(10) > div > div {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > a:nth-child(10) > div > div, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9)  {
     background: var(--accentD);
     border-radius: 18px;
     height: 50px;
     width: 50px;
     box-shadow: 1px 1px 10px #0000007a;
+        margin-left: 3px;
 }
 
 .i-ri\:quill-pen-line {
     margin: auto;
+    margin-top: 6px;
 }
 
 /* Mobile App Bar */
