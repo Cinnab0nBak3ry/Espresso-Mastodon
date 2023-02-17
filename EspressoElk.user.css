@@ -414,7 +414,6 @@ background-size: 50px 50px, 50px 20px, 60px 60px, 20px 20px;
 .vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
     border-right: var(--accentD) 2px solid;
     border-radius: 1px;
-    transition: .3s;
     background-color: var(--PGBackground2D);
     box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.198);
     margin-top: 10px;
