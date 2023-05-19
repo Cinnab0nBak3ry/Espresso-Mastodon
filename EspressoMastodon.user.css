@@ -1,4 +1,4 @@
-@-moz-document domain("noc.social"), domain("mastodon.social") {
+@-moz-document domain("noc.social"), domain("mastodon.social"), domain("wetdry.world") {
     /* ==UserStyle==
     @name         Espresso: Mastadon
     @description  A soft and colorful Mastodon theme
@@ -12,7 +12,7 @@
 > This is the core of the entire theme
 */
 
-@import url('https://Cinnab0nBak3ry/Espresso-Mastodon/source.css');
+@import url('https://Cinnab0nBak3ry.github.io/Espresso-Mastodon/source.css');
 
 /* 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
