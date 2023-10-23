@@ -1,3 +1,4 @@
+@-moz-document domain("elk.zone") {
 /* ==UserStyle==
     @name         Elk Espresso
     @description  A soft and colorful theme for Elk
@@ -199,8 +200,7 @@ html {
 
 .vue-recycle-scroller.direction-vertical .vue-recycle-scroller__item-wrapper {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: -40px;
 }
 
 /* Tab headers (notifs, bookmarks, dms, likes, etc.) */
@@ -256,3 +256,184 @@ background: radial-gradient(circle, transparent 20%, var(--PGBackgroundD) 20%, v
 background-size: 50px 50px, 50px 20px, 60px 60px, 20px 20px;
 }
 */
+}
+
+@-moz-document domain("elk.zone") {
+/* ==UserStyle==
+    @name         macOS Elk
+    @description  Elk themed to look more like the macOS Twitter app
+    @author       Vozer
+    @namespace    https://github.com/SlippingGitty/macOSElk
+    @version      1.0.0
+    ==/UserStyle== */
+
+/* Hides the annoying post thing on the top, literally has its own fucking tab */
+
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(1),
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(4) {
+    background: var(--PGBackground2D) !important;
+    border-radius: 10px;
+    box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.198);
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+#__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div:nth-child(1) {
+    background: var(--PGBackground2D) !important;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.198);
+    transition: 0.3s;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div.sm\:max-w-600px.md\:shrink-0>div>div:nth-child(1) {
+    background: var(--PGBackground2D) !important;
+    border-radius: 20px;
+    box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.198);
+    transition: 0.3s;
+    margin-top: 20px;
+    padding-top: 5px;
+    margin-left: -40px;
+    margin-right: 36px;
+}
+
+#__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div.sm\:max-w-600px.md\:shrink-0>div>div:nth-child(1):hover {
+    box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.198);
+    transition: .3s;
+}
+.pt-2, .pt2, [pt-2=""], [pt2=""] {
+    padding-top: 0.5rem;
+    color: var(--accentD);
+}
+}
+
+@-moz-document domain("elk.zone") {
+.i-ri\:repeat-fill, .i-ri\:repeat-line, [i-ri\:repeat-fill=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/oxijfz.svg");
+    mask-image: url("https://files.catbox.moe/oxijfz.svg");
+}
+
+
+.i-ri-heart-3-line, .i-ri\:heart-3-line, [i-ri-heart-3-line=""], [i-ri\:heart-3-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/ktkqd5.svg");
+    mask-image: url("https://files.catbox.moe/ktkqd5.svg");
+}
+
+.i-ri-heart-3-fill, .i-ri\:heart-3-fill, [hover~=i-ri-heart-3-fill]:hover, [i-ri-heart-3-fill=""] { 
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/k1s41t.svg");
+    mask-image: url("https://files.catbox.moe/k1s41t.svg");
+}
+
+.i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+    mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+}
+
+.i-ri\:bookmark-fill {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+    mask-image: url("https://files.catbox.moe/3tltw9.svg");
+}
+
+.i-ri-chat-1-line, .i-ri\:chat-1-line, [i-ri-chat-1-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/j7dxa2.svg");
+    mask-image: url("https://files.catbox.moe/j7dxa2.svg");
+}
+
+
+/* Sidebar */
+
+.zen .zen-hide {
+    opacity: 1;
+}
+
+.i-ri\:search-line, [i-ri\:search-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/j3m1s6.svg");
+    mask-image: url("https://files.catbox.moe/j3m1s6.svg");
+}
+
+.i-ri\:home-5-line, [i-ri\:home-5-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/6sy0n5.svg");
+    mask-image: url("https://files.catbox.moe/6sy0n5.svg");
+}
+
+.i-ri-notification-4-line, .i-ri\:notification-4-line, [i-ri-notification-4-line=""], [i-ri\:notification-4-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/epj8av.svg");
+    mask-image: url("https://files.catbox.moe/epj8av.svg");
+}
+
+.i-ri\:at-line, [i-ri\:at-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/mvku2v.svg");
+    mask-image: url("https://files.catbox.moe/mvku2v.svg");
+}
+
+.i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+    mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+}
+
+.i-ri\:hashtag, [i-ri\:hashtag=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+    mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+}
+
+.i-ri\:group-2-line, [i-ri\:group-2-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/pf39rr.svg");
+    mask-image: url("https://files.catbox.moe/pf39rr.svg");
+}
+
+.i-ri\:earth-line, [i-ri\:earth-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/vr9kr4.svg");
+    mask-image: url("https://files.catbox.moe/vr9kr4.svg");
+}
+
+.i-ri\:settings-3-line, [i-ri\:settings-3-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/rpuf7o.png");
+    mask-image: url("https://files.catbox.moe/rpuf7o.png");
+}
+
+.i-ri\:quill-pen-line {
+    -webkit-mask-image: url("https://files.catbox.moe/6b6bu8.svg");
+    mask-image: url("https://files.catbox.moe/6b6bu8.svg");
+}
+
+.vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
+    border-right: var(--accentD) 2px solid;
+    border-radius: 1px;
+    background-color: var(--PGBackground2D);
+    box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.198);
+    margin-top: 10px;
+}
+
+ div.vue-recycle-scroller.ready.page-mode.direction-vertical > div.vue-recycle-scroller__item-wrapper > div:nth-child(1) > article {
+    margin-bottom: 10px;
+}
+
+.h-1px, .h-px, .h1px, [h-1px=""], [h-px=""], [h1px=""], [h~="1px"] {
+    display: none;
+}
+.i-ri\:list-check, [i-ri\:list-check=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/4s97wj.svg");
+    mask-image: url("https://files.catbox.moe/4s97wj.svg");
+}
+}
